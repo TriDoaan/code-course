@@ -1,3 +1,43 @@
-@media (min-width) {
-    
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #acfc69;
+    font-family: 'AL Handwriting Primary', sans-serif; 
+}
+h1 {
+    color: #045c5c;
+    text-align: center;
+}
+p {
+    border: #245454 1px solid;
+}
+.bigcontainer {
+    width: 100%;
+    text-align: left;
+}
+.container {
+    font-size: 30px;
+    background-color: #6d949c ;
+    color: #b4c8c8;
+}
+.text .text2 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+/* desktop view */
+@media (min-width:992px) {
+    .container {
+        float: left;
+        width: 25%;
+    }
+}
+/* tablet vvvv */
+@media (min-width: 768px) and (max-width: 991px) {
+    .morecontainer {
+        float: left;
+        width: 50%;
+    }
 }
