@@ -1,21 +1,191 @@
 * {
     box-sizing: border-box;
+    font-family: Courier, monospace;
+}
+body {
+    background-color: #E6A5AC;
 }
 h1 {
     text-align: center;
 }
 h2 {
-    text-align: right;
+    width:auto;
+    float: right;
+    padding: 1px;
+    margin: 1px;
+}
+p {
+    margin-right: auto;
+    margin-left: auto;
+}
+.containerr {
+    width: 100%;
+    position: relative;
+}
+
+/* Coloring */
+#Messi {
+    background-color: #6CACE4;
+}
+#Messi > h2 {
+    border: black 1px solid;
+
+}
+#Ronaldo {
+    background-color: #DA291C;
+}
+#Ronaldo > h2 {
     border: black 1px solid;
 }
-.container { 
-    width: 90%;
-    height: auto;
-    border: black 1px solid;
-    margin: 5px;
+#Neymar {
+    background-color: #009739;
 }
+#Neymar > h2 {
+    border: black 1px solid;
+}
+
+
+/* MEDIA QUERIES */
 
 /* large size */
 @media (min-width: 992px) {
+    .col-lar-1, .col-lar-2, .col-lar-3, .col-lar-4, .col-lar-5, .col-lar-6, .col-lar-7, .col-lar-8, .col-lar-9, .col-lar-10, .col-lar-11, .col-lar-12 {
+        float:left;
+        border: black 3px solid;
+        border-radius: 5px;
+        height: auto;
+        margin: 10px;
+    }
+    .col-lar-1 {
+        width: 8.33%
+    }
+    .col-lar-2 {
+        width: 16.66%;
+    } 
+    .col-lar-3 {
+        width: 25% ;
+    } 
+    .col-lar-4 {
+        width: 33.33%;
+    } 
+    .col-lar-5 {
+        width: 41.66%;
+    } 
+    .col-lar-6 {
+        width: 50%;
+    } 
+    .col-lar-7 {
+        width: 58.33%;
+    } 
+    .col-lar-8 {
+        width: 66.65%;
+    } 
+    .col-lar-9 {
+        width: 75%;
+    } 
+    .col-lar-10 {
+        width: 83.31%;
+    } 
+    .col-lar-11 {
+        width: 91.64% ;
+    } 
+    .col-lar-12 {
+        width: 100%;
+    }
+    
+}
 
+/* medium size */
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-med-1, .col-med-2, .col-med-3, .col-med-4, .col-med-5, .col-med-6, .col-med-7, .col-med-8, .col-med-9, .col-med-10, .col-med-11, .col-med-12 {
+        float:left;
+        border: black 3px solid;
+        border-radius: 5px;
+        height: auto;
+        margin: 10px;
+    }
+    .col-med-1 {
+        width: 8.33%
+    }
+    .col-med-2 {
+        width: 16.66%;
+    } 
+    .col-med-3 {
+        width: 25% ;
+    } 
+    .col-med-4 {
+        width: 33.33%;
+    } 
+    .col-med-5 {
+        width: 41.66%;
+    } 
+    .col-med-6 {
+        width: 50%;
+    } 
+    .col-med-7 {
+        width: 58.33%;
+    } 
+    .col-med-8 {
+        width: 66.65%;
+    } 
+    .col-med-9 {
+        width: 75%;
+    } 
+    .col-med-10 {
+        width: 83.31%;
+    } 
+    .col-med-11 {
+        width: 91.64% ;
+    } 
+    .col-med-12 {
+        width: 100%;
+    } 
+}
+
+
+/* small size */
+@media (max-width: 767px) {
+    .col-sma-1, .col-sma-2, .col-sma-3, .col-sma-4, .col-sma-5, .col-sma-6, .col-sma-7, .col-sma-8, .col-sma-9, .col-sma-10, .col-sma-11, .col-sma-12 {
+        float:left;
+        border: black 3px solid;
+        border-radius: 5px;
+        height: auto;
+        margin: 10px;
+    }
+    .col-sma-1 {
+        width: 8.33%
+    }
+    .col-sma-2 {
+        width: 16.66%;
+    } 
+    .col-sma-3 {
+        width: 25% ;
+    } 
+    .col-sma-4 {
+        width: 33.33%;
+    } 
+    .col-sma-5 {
+        width: 41.66%;
+    } 
+    .col-sma-6 {
+        width: 50%;
+    } 
+    .col-sma-7 {
+        width: 58.33%;
+    } 
+    .col-sma-8 {
+        width: 66.65%;
+    } 
+    .col-sma-9 {
+        width: 75%;
+    } 
+    .col-sma-10 {
+        width: 83.31%;
+    } 
+    .col-sma-11 {
+        width: 91.64% ;
+    } 
+    .col-sma-12 {
+        width: 100%;
+    } 
 }
