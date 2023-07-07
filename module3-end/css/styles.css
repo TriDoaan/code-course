@@ -1,0 +1,41 @@
+body {
+    background-color:whitesmoke;
+    font-family: 'Tsukimi Rounded', sans-serif;
+    color: black;
+}
+#head-nav {
+    background-color: grey;
+    border-radius: 0;
+    border: 5px solid black;
+    height: 120px;
+}
+.navbar-brand h1 {
+    color: black;
+    margin-left: 20px;
+}
+#nav-list {
+    margin-top: 70px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    border: 1px solid black;
+}
+#nav-list a:hover {
+    font-size: 1.2em;
+}
+
+.name {
+    margin-bottom:20px;
+}
+.content {
+    padding-top: 5px;
+    background-color: grey;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 5px;
+    border: 5px solid black;
+}
+
+
