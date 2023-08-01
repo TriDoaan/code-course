@@ -11,7 +11,7 @@ h1 {
 h2 {
     width:auto;
     float: right;
-    padding: 1px;
+    padding: auto;
     margin: 1px;
 
 }
@@ -19,6 +19,7 @@ h2 {
     border: black 3px solid;
     background-color: grey;
     position: relative;
+    width: 90%;
 }
 
 /* Coloring and section border */
