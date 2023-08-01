@@ -13,23 +13,26 @@ h2 {
     float: right;
     padding: 1px;
     margin: 1px;
+
 }
 .box {
     border: black 3px solid;
+    background-color: grey;
+    position: relative;
 }
 
 /* Coloring and section border */
-#Messi {
-    background-color: #6CACE4;
-}
-#Ronaldo {
-    background-color: #DA291C;
-}
-#Neymar {
-    background-color: #009739;
-}
 #Messi > h2, #Ronaldo>h2, #Neymar>h2  {
     border: black 1px solid;
+}
+#Messi > h2 {
+    background-color: #6CACE4;
+}
+#Ronaldo>h2 {
+    background-color: #DA291C;
+}
+#Neymar>h2 {
+    background-color: #009739;
 }
 
 
